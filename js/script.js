@@ -8,7 +8,6 @@ function IMPORTANT() {
     let data2 =  document.querySelector('.form__input_2')
     data1 = data1.value
     data2 = data2.value
-    music.pause()
     music2.play()
     return [data1, data2]
 }
