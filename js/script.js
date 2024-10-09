@@ -1,7 +1,7 @@
 let music = new Audio('../music/theme.mp3')
 music.play()
 let music2 = new Audio('../music/fnaf-yay-101soundboards.mp3')
-music.volume = 1
+
 
 function IMPORTANT() {
     let data1 = document.querySelector('.form__input')
