@@ -1,7 +1,5 @@
-let music = new Audio('../music/theme.mp3')
-music.play()
 let music2 = new Audio('../music/fnaf-yay-101soundboards.mp3')
-
+let music = new Audio('../music/theme.mp3')
 
 function IMPORTANT() {
     let data1 = document.querySelector('.form__input')
@@ -16,6 +14,7 @@ function GetReady() {
   const [data, setData] = React.useState(false);
   const [data2, setData2] = React.useState(false)
   const [dataForDate, setDataForDate] = React.useState([])
+  music.play()
   function onMouseMove(e) {
     const buttonX =
       document.querySelector(".hello__button").getBoundingClientRect().x +
