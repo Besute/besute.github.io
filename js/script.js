@@ -1,7 +1,5 @@
 let music2 = new Audio('../music/fnaf-yay-101soundboards.mp3')
 let music = new Audio('../music/theme.mp3')
-music.play();
-
 function IMPORTANT() {
     let data1 = document.querySelector('.form__input')
     let data2 =  document.querySelector('.form__input_2')
@@ -16,6 +14,11 @@ function GetReady() {
   const [data2, setData2] = React.useState(false)
   const [ready, setReady] = React.useState(false);
   const [dataForDate, setDataForDate] = React.useState([])
+
+  React.useEffect(() => {
+    music.play();
+  }, [data])
+
   function onMouseMove(e) {
     const buttonX =
       document.querySelector(".hello__button").getBoundingClientRect().x +
