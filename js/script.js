@@ -66,7 +66,7 @@ function GetReady() {
   ) : !ready ? (
     <div className="hello__div">
       <h1 className="hello__hello hello__hello_4">
-        Оказывается, ты любишь ходить в театры
+        Оказывается, ты любишь театры
       </h1>
       <h2 className="hello__hello hello__hello_5">
         НАСКОЛЬКО сильное У ТЕБЯ желание туда пойти?

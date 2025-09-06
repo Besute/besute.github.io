@@ -58,7 +58,7 @@ body {
   background-color: #f75850;
   outline: none;
   border: none;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #f8e9e8;
 }
 
@@ -68,24 +68,24 @@ body {
   background-color: #6cf750;
   outline: none;
   border: none;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #f8e9e8;
 }
 
 .hello__hello_5 {
-  font-size: 4rem;
+  font-size: 3rem;
   grid-column: 4 / 8;
   grid-row: 5 / 6;
 }
 
 .hello__hello_3 {
-  font-size: 4rem;
+  font-size: 3rem;
   grid-column: 5/7;
   grid-row: 5/7;
 }
 
 .hello__hello_4 {
-  font-size: 5rem;
+  font-size: 4rem;
   grid-column: 3 / 9;
   grid-row: 4 / 5;
 }
@@ -107,7 +107,7 @@ body {
   background-color: #f75850;
   outline: none;
   border: none;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #f8e9e8;
 }
 .hello__button_2 {
