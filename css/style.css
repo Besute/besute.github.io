@@ -31,7 +31,7 @@ body {
   height: 100vh;
 }
 .hello__hello {
-  color: #F8E9E8;
+  color: #f8e9e8;
   font-size: 8rem;
   display: inline-block;
   grid-column: 4/8;
@@ -43,13 +43,55 @@ body {
   grid-column: 3/5;
   grid-row: 5/6;
 }
+
+.button__div {
+  width: 50vw;
+  position: absolute;
+  top: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hello__button_3 {
+  width: 40%;
+  height: 5rem;
+  background-color: #f75850;
+  outline: none;
+  border: none;
+  font-size: 3rem;
+  color: #f8e9e8;
+}
+
+.hello__button_2 {
+  width: 30%;
+  height: 5rem;
+  background-color: #6cf750;
+  outline: none;
+  border: none;
+  font-size: 3rem;
+  color: #f8e9e8;
+}
+
+.hello__hello_5 {
+  font-size: 4rem;
+  grid-column: 4 / 8;
+  grid-row: 5 / 6;
+}
+
 .hello__hello_3 {
   font-size: 4rem;
   grid-column: 5/7;
   grid-row: 5/7;
 }
+
+.hello__hello_4 {
+  font-size: 5rem;
+  grid-column: 3 / 9;
+  grid-row: 4 / 5;
+}
+
 .hello__start {
-  color: #F8E9E8;
+  color: #f8e9e8;
   font-size: 6rem;
   display: block;
   grid-column: 4/8;
@@ -59,13 +101,14 @@ body {
 }
 .hello__button {
   width: 50%;
+  height: 5rem;
   grid-column: 4/8;
   grid-row: 6/7;
-  background-color: #F75850;
+  background-color: #f75850;
   outline: none;
   border: none;
   font-size: 3rem;
-  color: #F8E9E8;
+  color: #f8e9e8;
 }
 .hello__button_2 {
   grid-row: 8/9;
@@ -87,6 +130,7 @@ body {
   height: 25rem;
   grid-column: 7/9;
   grid-row: 7/9;
+  transform: rotate(10deg);
 }
 
 .form {
@@ -101,7 +145,7 @@ body {
 }
 .form__label {
   font-size: 4rem;
-  color: #F8E9E8;
+  color: #f8e9e8;
   margin-bottom: 2rem;
 }
 .form__input {
@@ -112,4 +156,4 @@ body {
 .form__input_2 {
   width: 7rem;
   height: 3rem;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
